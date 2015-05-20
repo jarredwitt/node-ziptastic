@@ -1,0 +1,22 @@
+{
+  "name": "ziptastic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify tests/index.js | tape-run | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-request": "^0.3.3",
+    "rsvp": "^3.0.18"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "browserify-mockify": "0.0.11",
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0",
+    "tape-run": "^1.0.0"
+  }
+}
